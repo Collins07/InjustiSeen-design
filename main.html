@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxs-bus'></i>
+          <span class="logo_name">Recon</span>
+        </div>
+          <ul class="nav-links">
+            <li>
+              <a href="#" class="active">
+                <i class='bx bx-grid-alt' ></i>
+                <span class="links_name">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-box' ></i>
+                <span class="links_name">Product</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-list-ul' ></i>
+                <span class="links_name">List of Fleet</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-pie-chart-alt-2' ></i>
+                <span class="links_name">Analytics</span>
+              </a>
+            </li>
+        
+            <li>
+              <a href="#">
+                <i class='bx bx-user' ></i>
+                <span class="links_name">Team</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-message' ></i>
+                <span class="links_name">Messages</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class='bx bx-cog' ></i>
+                <span class="links_name">Setting</span>
+              </a>
+            </li>
+            <li class="log_out">
+              <a href="#">
+                <i class='bx bx-log-out'></i>
+                <span class="links_name">Log out</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+      <section class="home-section">
+        <nav>
+          <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+            <span class="dashboard">Dashboard</span>
+          </div>
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search' ></i>
+          </div>
+          <div class="profile-details">
+            <img src="assests/collins.jpg" alt="">
+            <span class="admin_name">Collins Nyakoe</span>
+            <i class='bx bx-chevron-down' ></i>
+          </div>
+        </nav>
+        <div class="home-content">
+          <div class="overview-boxes">
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Vehicles in service</div>
+                <div class="number">40</div>
+                
+              </div>
+              <i id="check" class='bx bxs-check-circle mt-4'></i>
+            </div>
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Out of service</div>
+                <div class="number">5</div>
+                <div class="indicator">
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span class="text">Up from yesterday</span>
+                </div>
+              </div>
+              <i id="error" class='bx bxs-error'></i>
+            </div>
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Total vehicles</div>
+                <div class="number">45</div>
+                
+              </div>
+              <i id="total-vehicles" class='bx bxs-car mt-4'></i>
+            </div>
+        
+          </div>
+          <div class="sales-boxes">
+            <div class="recent-sales box">
+              <div class="title">Recent data</div>
+              <div class="sales-details">
+                <ul class="details">
+                  <li class="topic">Date</li>
+                  <li><a href="#">01 Jan 2023</a></li>
+                  <li><a href="#">02 Jan 2023</a></li>
+                  <li><a href="#">03 Jan 2023</a></li>
+                  <li><a href="#">04 Jan 2023</a></li>
+                  <li><a href="#">05 Jan 2023</a></li>
+                  <li><a href="#">06 Jan 2023</a></li>
+                  <li><a href="#">07 Jan 2023</a></li>
+                  <li><a href="#">07 Jan 2023</a></li>
+                  <li><a href="#">07 Jan 2023</a></li>
+                </ul>
+                <ul class="details">
+                <li class="topic">Driver</li>
+                <li><a href="#">Alex Doe</a></li>
+                <li><a href="#">David Mart</a></li>
+                <li><a href="#">Roe Parter</a></li>
+                <li><a href="#">Diana Penty</a></li>
+                <li><a href="#">Martin Paw</a></li>
+                <li><a href="#">Doe Alex</a></li>
+                <li><a href="#">Aiana Lexa</a></li>
+                <li><a href="#">Rexel Mags</a></li>
+                 <li><a href="#">Tiana Loths</a></li>
+                 
+              </ul>
+              <ul class="details">
+                <li class="topic">Trips</li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">0</a></li>
+                <li><a href="#">0</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">5</a></li>
+                 <li><a href="#">2</a></li>
+                <li><a href="#">1</a></li>
+              </ul>
+              <ul class="details">
+                <li class="topic">Total</li>
+                <li><a href="#">$204.98</a></li>
+                <li><a href="#">$24.55</a></li>
+                <li><a href="#">$25.88</a></li>
+                <li><a href="#">$170.66</a></li>
+                <li><a href="#">$56.56</a></li>
+                <li><a href="#">$44.95</a></li>
+                <li><a href="#">$67.33</a></li>
+                 <li><a href="#">$23.53</a></li>
+                 <li><a href="#">$46.52</a></li>
+              </ul>
+              </div>
+              
+            </div>
+            <div class="top-sales box">
+              <div class="title">Top stats</div>
+              <ul class="top-sales-details">
+                <li>
+                <a href="#">
+                  <img src="assests/car1.png" alt="">
+                  <span class="product">KAA 123Z</span>
+                </a>
+                <span class="price">0</span>
+               </li>
+               <li>
+                <a href="#">
+                  <img src="assests/car1.png" alt="">
+                  <span class="product">KAA 123Z</span>
+                </a>
+                <span class="price">0</span>
+               </li>
+               <li>
+                <a href="#">
+                  <img src="assests/car1.png" alt="">
+                  <span class="product">KAA 123Z</span>
+                </a>
+                <span class="price">0</span>
+               </li>
+               <li>
+                <a href="#">
+                  <img src="assests/car1.png" alt="">
+                  <span class="product">KAA 123Z</span>
+                </a>
+                <span class="price">0</span>
+               </li>
+               <li>
+                <a href="#">
+                  <img src="assests/car1.png" alt="">
+                  <span class="product">KAA 123Z</span>
+                </a>
+                <span class="price">0</span>
+               </li>
+             
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <script src="js/main.js"></script>
+</body>
+</html>

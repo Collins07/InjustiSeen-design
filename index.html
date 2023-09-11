@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransFleet</title>
+     <link rel="stylesheet" href="css/landing-page.css">
+     <link rel="stylesheet" href="css/bootstrap.min (2).css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigation">
+        <div class="container-fluid">
+          <div class="col d-flex" id="logo-brand">
+            <img src="assests/3.jpg" class="d-block " alt="Bootstrap Themes" width="47" height="47" loading="lazy">
+            <a id="navbar-brand" class="navbar-brand" href="#">InjustiSeen</a>
+          </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid" >
+            <div class="row">
+                <div class="col-8"></div>
+                <div class="col-4 navbar-collapse collapse"  id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                          <a id="nav-link" class="nav-link"  href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >Login
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a id="nav-link" class="nav-link" href="#">Contact Us</a>
+                        </li>
+                       
+                      </ul>
+                </div>
+            </div>
+           
+          </div>
+        </div>
+      </nav>
+
+      <!-- Modal class -->
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login as :</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <!-- action -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="card d-flex" >
+                      <img src="assests/driver.jpg" class="img-fluid" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-6 text-center mt-4">
+                    <a href="register.html" class="login-modal">Driver/Tout</a>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              <p class="fw-bold text-center">Or</p>
+              <hr>
+
+              <div class="container mt-3">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="card d-flex" >
+                      <img src="assests/passenger.jpg" class="img-fluid" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-6 text-center mt-4">
+                    <a href="login.html" class="login-modal">Passenger</a>
+                  </div>
+                </div>
+              </div>
+              
+
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Hero Section -->
+
+      <div class="container col-xxl-12 px-2 py-2" id="hero">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            
+            <img src="assests/sentiment.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Justice is One Click Away with <span class="trans-fleet">InjustiSeen</span></h1>
+            <p class="lead">
+              Your comprehensive platform for reporting and addressing injustices across a wide range of societal domains
+              Our wide range of services include :
+                <ul id="service-intro" class="lead ">
+                    <li><i class='bx bxs-check-circle'></i> Rapid Incident Reporting</li>
+                    <li><i class='bx bxs-check-circle'></i> Authorities and Organization Connectivity</li>
+                    <li><i class='bx bxs-check-circle'></i> Consultation Services</li>
+                    <li><i class='bx bxs-check-circle'></i> Resource Hub</li>
+                </ul>
+            </p>
+            
+            <p class="lead">
+                We provides a user-friendly platform to report injustices promptly. 
+                guide you through reporting to relevant authorities. Let's help you take the right steps towards justice with ease
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#" id="get-started" type="button" class="btn btn-lg px-3 me-md-2 ">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

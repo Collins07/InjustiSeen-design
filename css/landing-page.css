@@ -1,0 +1,71 @@
+/* navigation  */
+#navigation{
+    background: rgb(2,0,36);
+    height: 100%;
+background: linear-gradient(90deg, black 0%, #000000 35%, rgb(177, 101, 3) 100%);
+}
+body{
+    overflow-x: hidden;
+}
+
+#nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 60px;
+    
+}
+
+#navbar-brand{
+    color: rgb(223, 128, 4) ;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size:25px;
+    font-family: "MV Boli", sans-serif;
+}
+#logo-brand{
+    margin-left: 2%;
+}
+
+.login-modal{
+    background-color: rgb(223, 128, 4)  ;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    width: 400px;
+}
+.login-modal:hover{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* hero */
+
+.trans-fleet{
+    color: #df8004 ;
+    
+}
+#get-started{
+    background-color: rgb(211, 121, 4);
+    box-shadow: rgb(13, 13, 14) 0px 20px 30px -10px;
+}
+#service-intro{
+    list-style-type: none;
+}
+.bx{
+    color: rgb(223, 128, 4)  ;
+    font-size: 22px;
+}
+
+
+/* Media querries */
+@media only screen and (max-width: 600px) {
+    #nav-link{
+        margin-left: 0px;
+        
+    }
+  }

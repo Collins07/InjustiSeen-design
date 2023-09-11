@@ -1,0 +1,57 @@
+.background-radial-gradient {
+    background-color: black;
+   
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(rgb(247, 145, 12), rgb(179, 103, 4));
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(rgb(247, 145, 12), rgb(179, 103, 4));
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  .bx{
+    color: rgb(247, 145, 12);
+    font-size: 25px;
+  }
+  #register{
+    background-color: rgb(247, 145, 12);
+  }
+
+  label{
+    font-weight: bold;
+  }
+  #driver-login{
+    color: black;
+    text-decoration: none;
+  }
+  #create-new{
+  
+    color: blue;
+}
+
+
+
+  /* Media querries */
+@media only screen and (max-width: 600px) {
+  label{
+      text-align: start;
+      
+  }
+}
