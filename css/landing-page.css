@@ -62,10 +62,18 @@ body{
 }
 
 
+
+
 /* Media querries */
 @media only screen and (max-width: 600px) {
     #nav-link{
         margin-left: 0px;
         
+    }
+    html{
+        overflow-x: hidden;
+    }
+    #hero-image{
+        margin-left: 20%;
     }
   }
