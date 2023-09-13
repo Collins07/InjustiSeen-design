@@ -21,7 +21,7 @@ body{
     font-weight: bolder;
     margin-left: 10px;
     font-size:25px;
-    font-family: "MV Boli", sans-serif;
+    /* font-family: "MV Boli", sans-serif; */
 }
 #logo-brand{
     margin-left: 2%;
@@ -65,7 +65,7 @@ body{
 
 
 /* Media querries */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #nav-link{
         margin-left: 0px;
         
@@ -75,5 +75,13 @@ body{
     }
     #hero-image{
         margin-left: 20%;
+    }
+    #logo{
+        width: 35px;
+        height: 35px;
+        margin-top: 3px;
+    }
+    #navbar-brand{
+        font-size: 20px;
     }
   }
